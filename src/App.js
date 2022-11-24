@@ -1,12 +1,10 @@
 import "./App.css";
-import logo from "./log.png";
+import Header from "./componetns/Header";
 
 const App = () => {
   return (
     <div className="app-wrapper">
-      <header className="header">
-        <img className="logo" src={logo} alt="Logo.png" />
-      </header>
+      <Header />
       <nav className="nav">
         <div>
           <div>
@@ -31,14 +29,16 @@ const App = () => {
           <img
             className="friends"
             src="https://www.maitre-mouhou.com/wp-content/uploads/2013/07/temoignage.jpg"
+            alt="friends"
           />
         </div>
         <div>
           <img
             className="ava"
             src="https://www.armrus.org/upload/main/581/581c1a044fcd9f526747749f6eb7b93d.jpg"
+            alt="ava"
           />
-          Discription
+          Description
         </div>
         <div>
           My post
