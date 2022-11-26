@@ -1,0 +1,13 @@
+.content {
+    background-color: whitesmoke;
+    grid-area: c;
+}
+
+.friends {
+    width: 100%;
+    height: 250px;
+}
+
+
+
+
