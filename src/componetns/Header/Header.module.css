@@ -1,9 +1,12 @@
 .header {
     grid-area: h;
     background-color: #3E8AF2 ;
+    opacity: 0.8;
+    border-radius: 10px;
 }
 
 .logo {
-    width: 90px;
-    padding-left: 50px;
+    width: 80px;
+    padding-left: 60px;
+    padding-top: 5px;
 }

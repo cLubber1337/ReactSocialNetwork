@@ -1,18 +1,15 @@
 import React from "react";
 import s from "./Profile.module.css";
 import MyPosts from "./MyPosts/MyPosts";
+import profPic from "./profPic.jpg";
 
 const Profile = () => {
   return (
-    <div className={s.content}>
+    <div>
       <div>
-        <img
-          className={s.friends}
-          src="https://www.maitre-mouhou.com/wp-content/uploads/2013/07/temoignage.jpg"
-          alt="friends"
-        />
+        <img className={s.profPic} src={profPic} alt="profPic" />
       </div>
-      <div className={s.item}>
+      <div>
         <img
           src="https://www.armrus.org/upload/main/581/581c1a044fcd9f526747749f6eb7b93d.jpg"
           alt="ava"
